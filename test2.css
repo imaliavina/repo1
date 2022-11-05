@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 200px;
+  background-color: rgb(223, 243, 132);
+  display: flex;
+}
+
+.logo {
+  height: 50px;
+  background-color: crimson;
+  width: 200px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.item {
+  width: 300px;
+  height: 350px;
+  border: 1px solid #000000;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background-image: url(img/th_7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.footer {
+  height: 200px;
+  background-color: rgb(223, 243, 132);
+  display: flex;
+}
+
+.itempic {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  background-color: crimson;
+  color: antiquewhite;
+  text-align: center;
+  line-height: 40px;
+  margin: 300px auto 0;
+}
+
+.button:hover {
+  border: 1px solid crimson;
+  color: crimson;
+  background-color: antiquewhite;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.description {
+  color: brown;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.dark-blue {
+  background-color: darkblue;
+}
